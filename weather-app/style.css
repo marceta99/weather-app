@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+     background: linear-gradient(rgb(47,150,163),rgb(48,62,143)); ;
+}
+
+
+
+
+#app-container {
+   /* border: 2px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+#location {
+    /*border: 2px solid red;*/
+    font-family: sans-serif;
+    color: white ; 
+    font-size: 2.5rem;
+}
+#temp {
+    /*border: 2px solid blue;*/
+    text-align: center;
+}
+#temp #temp-value{
+color: white;
+font-size: 10rem;
+
+}#temp #temp-unit{
+    color: white;
+font-size: 3rem;
+}
+ #temp-icon{
+    margin: 5rem;
+    width: 40%;
+    height: auto;
+   
+}
+
+#climate {
+    color: white;
+    font-size: 30px;
+   /* border: 2px solid green;*/
+}
